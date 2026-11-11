@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Herbert Do (Trung Hop Do) - mobile app developer in Sydney working with React Native, Android and iOS." />
+        <meta name="description" content="Herbert Do (Trung Hop Do) - mobile app developer working with React Native, Android and iOS. Open to graduate roles anywhere in Australia." />
         <meta name="author" content="Herbert Do" />
         <title>Herbert Do - Mobile App Developer</title>
         <!-- Favicon-->
@@ -13,6 +13,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Profile-specific styles-->
@@ -40,13 +41,49 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
+            <div class="hero-bg" aria-hidden="true"><span class="blob blob-1"></span><span class="blob blob-2"></span><span class="blob blob-3"></span></div>
             <div class="container">
-                <div class="masthead-subheading">Hi, I'm Trung Hop Do (Herbert Do)</div>
-                <div class="masthead-heading text-uppercase">Mobile App Developer</div>
-                <p class="masthead-lead">Aspiring technology professional passionate about contributing to high-tech projects, particularly in artificial intelligence and software application development. Based in Sydney and open to professional internship opportunities in software development.</p>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">See My Projects</a>
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6 hero-copy">
+                        <div class="hero-badge"><span class="dot"></span>Open to graduate roles &middot; Australia-wide</div>
+                        <div class="masthead-subheading">Hi, I'm Trung Hop Do (Herbert Do)</div>
+                        <h1 class="masthead-heading text-uppercase">Mobile App <span class="text-gradient">Developer</span></h1>
+                        <p class="hero-typed">I build <span id="typed" data-words="Android apps|iOS apps|React Native apps|clean UI/UX|location-based apps">Android apps</span><span class="caret" aria-hidden="true"></span></p>
+                        <p class="masthead-lead">Aspiring technology professional passionate about contributing to high-tech projects, particularly in artificial intelligence and software application development.</p>
+                        <div class="hero-actions">
+                            <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">See My Projects</a>
+                            <a class="btn btn-outline-light btn-xl text-uppercase" href="#contact">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-visual" aria-hidden="true">
+                            <div class="code-window">
+                                <div class="code-bar"><span></span><span></span><span></span><em>herbert.js</em></div>
+<pre class="code-body"><code><span class="k">const</span> <span class="v">herbert</span> = {
+  <span class="p">name</span>: <span class="s">"Trung Hop Do"</span>,
+  <span class="p">role</span>: <span class="s">"Mobile App Developer"</span>,
+  <span class="p">based</span>: <span class="s">"Sydney, Australia"</span>,
+  <span class="p">stack</span>: [<span class="s">"React Native"</span>, <span class="s">"Java"</span>, <span class="s">"Swift"</span>],
+  <span class="p">learning</span>: [<span class="s">"Python"</span>, <span class="s">"TensorFlow"</span>],
+  <span class="p">openTo</span>: <span class="s">"Graduate roles, Australia-wide"</span>,
+};
+
+<span class="c">// let's build something great</span>
+<span class="v">herbert</span>.<span class="f">sayHello</span>();</code></pre>
+                            </div>
+                            <span class="float-chip chip-1"><i class="fab fa-react"></i></span>
+                            <span class="float-chip chip-2"><i class="fab fa-android"></i></span>
+                            <span class="float-chip chip-3"><i class="fab fa-apple"></i></span>
+                            <span class="float-chip chip-4"><i class="fab fa-python"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
+        <!-- Tech marquee-->
+        <div class="tech-marquee">
+            <div class="tech-track"><span>React Native</span><span>Android</span><span>iOS</span><span>Java</span><span>Swift</span><span>JavaScript</span><span>Python</span><span>TensorFlow</span><span>SQLite</span><span>SQL Server</span><span>REST APIs</span><span>Firebase</span><span>Google Maps API</span><span>Figma</span><span>Git / GitHub</span><span>Unity</span><span aria-hidden="true">React Native</span><span aria-hidden="true">Android</span><span aria-hidden="true">iOS</span><span aria-hidden="true">Java</span><span aria-hidden="true">Swift</span><span aria-hidden="true">JavaScript</span><span aria-hidden="true">Python</span><span aria-hidden="true">TensorFlow</span><span aria-hidden="true">SQLite</span><span aria-hidden="true">SQL Server</span><span aria-hidden="true">REST APIs</span><span aria-hidden="true">Firebase</span><span aria-hidden="true">Google Maps API</span><span aria-hidden="true">Figma</span><span aria-hidden="true">Git / GitHub</span><span aria-hidden="true">Unity</span></div>
+        </div>
         <!-- Skills-->
         <section class="page-section" id="services">
             <div class="container">
@@ -55,7 +92,7 @@
                     <h3 class="section-subheading text-muted">A solid programming foundation with hands-on experience in mobile app projects.</h3>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4 mb-5">
+                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-mobile-screen-button fa-stack-1x fa-inverse"></i>
@@ -69,8 +106,8 @@
                             <li>Android Studio</li>
                             <li>Xcode</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4 mb-5">
+                    </div></div>
+                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-code fa-stack-1x fa-inverse"></i>
@@ -85,8 +122,8 @@
                             <li>VB.net</li>
                             <li>Git / GitHub</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4 mb-5">
+                    </div></div>
+                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-database fa-stack-1x fa-inverse"></i>
@@ -100,8 +137,8 @@
                             <li>Google Maps API</li>
                             <li>Firebase</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4 mb-5 mb-md-0">
+                    </div></div>
+                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-pen-ruler fa-stack-1x fa-inverse"></i>
@@ -114,8 +151,8 @@
                             <li>HTML</li>
                             <li>CSS</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4 mb-5 mb-md-0">
+                    </div></div>
+                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-brain fa-stack-1x fa-inverse"></i>
@@ -126,8 +163,8 @@
                             <li>Python</li>
                             <li>TensorFlow</li>
                         </ul>
-                    </div>
-                    <div class="col-md-4">
+                    </div></div>
+                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-people-group fa-stack-1x fa-inverse"></i>
@@ -140,7 +177,7 @@
                             <li>English</li>
                             <li>Vietnamese</li>
                         </ul>
-                    </div>
+                    </div></div>
                 </div>
             </div>
         </section>
@@ -151,7 +188,7 @@
                     <h2 class="section-heading text-uppercase">Projects</h2>
                     <h3 class="section-subheading text-muted">Selected apps from university, college and professional work.</h3>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Project 1-->
                         <div class="portfolio-item">
@@ -159,7 +196,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <div class="project-tile tile-teal"><i class="fas fa-map-location-dot"></i></div>
+                                <div class="project-tile tile-teal"><img src="assets/img/projects/1-yesterday-stories.svg" alt="Yesterday Stories app illustration" loading="lazy" /></div>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Yesterday Stories</div>
@@ -174,7 +211,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <div class="project-tile tile-rose"><i class="fas fa-heart-pulse"></i></div>
+                                <div class="project-tile tile-rose"><img src="assets/img/projects/2-health-tracker.svg" alt="Health Tracker app illustration" loading="lazy" /></div>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Health Tracker</div>
@@ -189,7 +226,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <div class="project-tile tile-amber"><i class="fas fa-cart-shopping"></i></div>
+                                <div class="project-tile tile-amber"><img src="assets/img/projects/3-ecommerce.svg" alt="E-commerce app illustration" loading="lazy" /></div>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">E-commerce App</div>
@@ -204,25 +241,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <div class="project-tile tile-green"><i class="fas fa-person-biking"></i></div>
+                                <div class="project-tile tile-indigo"><img src="assets/img/projects/5-city-cab.svg" alt="City Cab cycle safety app illustration" loading="lazy" /></div>
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Cycle Safety App</div>
-                                <div class="portfolio-caption-subheading text-muted">Android / iOS &middot; Revolution Sport</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Project 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <div class="project-tile tile-indigo"><i class="fas fa-taxi"></i></div>
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">City Cab App</div>
+                                <div class="portfolio-caption-heading">City Cab &middot; Cycle Safety</div>
                                 <div class="portfolio-caption-subheading text-muted">Android / iOS &middot; Revolution Sport</div>
                             </div>
                         </div>
@@ -234,7 +256,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <div class="project-tile"><i class="fas fa-gamepad"></i></div>
+                                <div class="project-tile tile-dark"><img src="assets/img/projects/6-early-games.svg" alt="Early apps and games illustration" loading="lazy" /></div>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Early Apps &amp; Games</div>
@@ -260,7 +282,7 @@
                                 <h4>Nov 2016 - Oct 2017</h4>
                                 <h4 class="subheading">Android / iOS Developer &middot; Revolution Sport (Vietnam)</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Developed Android and iOS applications, including the Cycle Safety App with user authentication and real-time safety alerts, and the City Cab App with taxi calling, location tracking and navigation using Google Maps.</p></div>
+                            <div class="timeline-body"><p class="text-muted">Developed Android and iOS applications, including the City Cab cycle safety app with user authentication, real-time safety alerts, taxi calling, and location tracking and navigation using Google Maps.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -298,7 +320,7 @@
                             <h4>
                                 Open To
                                 <br />
-                                Internship
+                                Graduate
                                 <br />
                                 Roles!
                             </h4>
@@ -330,7 +352,7 @@
                     <div class="col-lg-6">
                         <div class="edu-card">
                             <div class="edu-period">Sep 2013 - May 2016</div>
-                            <h4 class="mt-2 mb-1">FPT Polytechnic College, TechMaster</h4>
+                            <h4 class="mt-2 mb-1">FPT, TechMaster</h4>
                             <p class="text-muted">Vietnam &middot; Projects completed</p>
                             <ul class="text-muted">
                                 <li>Mobile student administration app using Eclipse and SQL</li>
@@ -348,7 +370,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact</h2>
-                    <h3 class="section-subheading text-muted">Looking for a professional internship in software development / IT.</h3>
+                    <h3 class="section-subheading text-muted">Looking for a graduate position in software development / IT, anywhere in Australia.</h3>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-4 contact-item">
@@ -364,7 +386,7 @@
                     <div class="col-md-4 contact-item">
                         <i class="fas fa-location-dot fa-2x text-primary mb-3"></i>
                         <div class="contact-label">Location</div>
-                        <div>Sydney, Australia</div>
+                        <div>Sydney &middot; open to relocating across Australia</div>
                     </div>
                 </div>
                 <div class="text-center mt-3"><a class="btn btn-primary btn-xl text-uppercase" href="mailto:Herbert.ddtt@gmail.com">Email Me</a></div>
@@ -394,7 +416,7 @@
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">Yesterday Stories</h2>
                                     <p class="item-intro text-muted">Location-based mobile app built with React Native.</p>
-                                    <div class="project-tile tile-teal"><i class="fas fa-map-location-dot"></i></div>
+                                    <div class="project-tile tile-teal"><img src="assets/img/projects/1-yesterday-stories.svg" alt="Yesterday Stories app illustration" loading="lazy" /></div>
                                     <p>A location-based mobile application featuring interactive maps with custom markers and trail management functionality, developed as a group project.</p>
                                     <ul class="project-points">
                                         <li>Designed and optimised the UI/UX for a better user experience.</li>
@@ -427,7 +449,7 @@
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">Personal Health Tracker</h2>
                                     <p class="item-intro text-muted">Healthcare Android app for lifestyle and health habits.</p>
-                                    <div class="project-tile tile-rose"><i class="fas fa-heart-pulse"></i></div>
+                                    <div class="project-tile tile-rose"><img src="assets/img/projects/2-health-tracker.svg" alt="Health Tracker app illustration" loading="lazy" /></div>
                                     <p>A multi-screen Android application, designed and developed to track and summarise users' lifestyle and health habits.</p>
                                     <ul class="project-points">
                                         <li>Built an intuitive and user-friendly UI from scratch.</li>
@@ -461,7 +483,7 @@
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">E-commerce App</h2>
                                     <p class="item-intro text-muted">Full-featured Android shopping app, from concept to deployment.</p>
-                                    <div class="project-tile tile-amber"><i class="fas fa-cart-shopping"></i></div>
+                                    <div class="project-tile tile-amber"><img src="assets/img/projects/3-ecommerce.svg" alt="E-commerce app illustration" loading="lazy" /></div>
                                     <p>A full-featured eCommerce mobile application built in Android Studio with Java and XML, delivered by a team as a scalable, commercial-ready app.</p>
                                     <ul class="project-points">
                                         <li>Designed the complete UI/UX using Figma.</li>
@@ -494,38 +516,15 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <h2 class="text-uppercase">Cycle Safety App</h2>
-                                    <p class="item-intro text-muted">Mobile app for safer cycling.</p>
-                                    <div class="project-tile tile-green"><i class="fas fa-person-biking"></i></div>
-                                    <p>Developed at Revolution Sport as an Android / iOS developer, including user authentication and real-time safety alerts.</p>
-                                    <ul class="list-inline">
-                                        <li><strong>Context:</strong> Revolution Sport (2016 - 2017)</li>
-                                        <li><strong>Platform:</strong> Android / iOS</li>
+                                    <h2 class="text-uppercase">City Cab &middot; Cycle Safety App</h2>
+                                    <p class="item-intro text-muted">Taxi calling and cycle safety in one mobile app.</p>
+                                    <div class="project-tile tile-indigo"><img src="assets/img/projects/5-city-cab.svg" alt="City Cab cycle safety app illustration" loading="lazy" /></div>
+                                    <p>Developed at Revolution Sport as an Android / iOS developer.</p>
+                                    <ul class="project-points">
+                                        <li>User authentication and real-time safety alerts.</li>
+                                        <li>Taxi calling features and location-based services with Google Maps.</li>
+                                        <li>Location tracking and data analysis using Google Maps for navigation.</li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">City Cab App</h2>
-                                    <p class="item-intro text-muted">Taxi calling with location-based services.</p>
-                                    <div class="project-tile tile-indigo"><i class="fas fa-taxi"></i></div>
-                                    <p>Developed at Revolution Sport. Integrated taxi calling features and location-based services with Google Maps, and implemented location tracking and data analysis for navigation.</p>
                                     <ul class="list-inline">
                                         <li><strong>Context:</strong> Revolution Sport (2016 - 2017)</li>
                                         <li><strong>Stack:</strong> Android / iOS, Google Maps</li>
@@ -551,8 +550,8 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">Early Apps &amp; Games</h2>
-                                    <p class="item-intro text-muted">Projects completed at FPT Polytechnic College and TechMaster.</p>
-                                    <div class="project-tile"><i class="fas fa-gamepad"></i></div>
+                                    <p class="item-intro text-muted">Projects completed at FPT and TechMaster.</p>
+                                    <div class="project-tile tile-dark"><img src="assets/img/projects/6-early-games.svg" alt="Early apps and games illustration" loading="lazy" /></div>
                                     <ul class="project-points">
                                         <li>Mobile student administration app using Eclipse and SQL.</li>
                                         <li>Mobile puzzle game.</li>
@@ -561,7 +560,7 @@
                                         <li>App clones, such as a fortune-telling app with algorithm-based results and a multimedia note-taking app using SQLite.</li>
                                     </ul>
                                     <ul class="list-inline">
-                                        <li><strong>Context:</strong> FPT Polytechnic College, TechMaster (2013 - 2016)</li>
+                                        <li><strong>Context:</strong> FPT, TechMaster (2013 - 2016)</li>
                                         <li><strong>Stack:</strong> Android Studio, Eclipse, Unity, SQL, SQLite</li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
