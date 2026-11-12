@@ -1,582 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Herbert Do (Trung Hop Do) - mobile app developer working with React Native, Android and iOS. Open to graduate roles anywhere in Australia." />
-        <meta name="author" content="Herbert Do" />
-        <title>Herbert Do - Mobile App Developer</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- Profile-specific styles-->
-        <link href="css/custom.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Herbert Do</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="hero-bg" aria-hidden="true"><span class="blob blob-1"></span><span class="blob blob-2"></span><span class="blob blob-3"></span></div>
-            <div class="container">
-                <div class="row align-items-center gy-5">
-                    <div class="col-lg-6 hero-copy">
-                        <div class="hero-badge"><span class="dot"></span>Open to graduate roles &middot; Australia-wide</div>
-                        <div class="masthead-subheading">Hi, I'm Trung Hop Do (Herbert Do)</div>
-                        <h1 class="masthead-heading text-uppercase">Mobile App <span class="text-gradient">Developer</span></h1>
-                        <p class="hero-typed">I build <span id="typed" data-words="Android apps|iOS apps|React Native apps|clean UI/UX|location-based apps">Android apps</span><span class="caret" aria-hidden="true"></span></p>
-                        <p class="masthead-lead">Aspiring technology professional passionate about contributing to high-tech projects, particularly in artificial intelligence and software application development.</p>
-                        <div class="hero-actions">
-                            <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">See My Projects</a>
-                            <a class="btn btn-outline-light btn-xl text-uppercase" href="#contact">Contact Me</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="hero-visual" aria-hidden="true">
-                            <div class="code-window">
-                                <div class="code-bar"><span></span><span></span><span></span><em>herbert.js</em></div>
-<pre class="code-body"><code><span class="k">const</span> <span class="v">herbert</span> = {
-  <span class="p">name</span>: <span class="s">"Trung Hop Do"</span>,
-  <span class="p">role</span>: <span class="s">"Mobile App Developer"</span>,
-  <span class="p">based</span>: <span class="s">"Sydney, Australia"</span>,
-  <span class="p">stack</span>: [<span class="s">"React Native"</span>, <span class="s">"Java"</span>, <span class="s">"Swift"</span>],
-  <span class="p">learning</span>: [<span class="s">"Python"</span>, <span class="s">"TensorFlow"</span>],
-  <span class="p">openTo</span>: <span class="s">"Graduate roles, Australia-wide"</span>,
-};
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Herbert Do (Trung Hop Do) - mobile app developer working with React Native, Android and iOS. Open to graduate roles anywhere in Australia." />
+    <meta name="author" content="Herbert Do" />
+    <title>Herbert Do - Mobile App Developer</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="cursor" aria-hidden="true"></div>
 
-<span class="c">// let's build something great</span>
-<span class="v">herbert</span>.<span class="f">sayHello</span>();</code></pre>
-                            </div>
-                            <span class="float-chip chip-1"><i class="fab fa-react"></i></span>
-                            <span class="float-chip chip-2"><i class="fab fa-android"></i></span>
-                            <span class="float-chip chip-3"><i class="fab fa-apple"></i></span>
-                            <span class="float-chip chip-4"><i class="fab fa-python"></i></span>
-                        </div>
-                    </div>
+    <header class="topbar">
+        <a class="logo" href="#home" aria-label="Herbert Do, back to top">HD<span>.</span></a>
+        <p class="status"><span class="dot"></span>Open to graduate roles <span class="hide-s">&mdash; anywhere in Australia</span></p>
+        <p class="clock">Sydney <b id="clock">--:--</b></p>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <p class="eyebrow">Trung Hop Do, a.k.a.</p>
+            <h1 class="giant" aria-label="Herbert Do">
+                <span class="line"><span class="word">Herbert</span></span>
+                <span class="line"><span class="word">Do</span><em class="role">mobile app developer</em></span>
+            </h1>
+            <div class="hero-foot">
+                <p class="hero-lead">I build <span class="swap" id="swap" data-words="Android apps|iOS apps|React Native apps|clean UI/UX|location-based apps">Android apps</span><br />Aspiring technology professional passionate about high-tech projects, particularly artificial intelligence and software application development.</p>
+                <div class="hero-cta">
+                    <a class="btn btn-solid" href="#projects">See projects <span aria-hidden="true">&darr;</span></a>
+                    <a class="btn" href="#contact">Say hello</a>
                 </div>
             </div>
-        </header>
-        <!-- Tech marquee-->
-        <div class="tech-marquee">
-            <div class="tech-track"><span>React Native</span><span>Android</span><span>iOS</span><span>Java</span><span>Swift</span><span>JavaScript</span><span>Python</span><span>TensorFlow</span><span>SQLite</span><span>SQL Server</span><span>REST APIs</span><span>Firebase</span><span>Google Maps API</span><span>Figma</span><span>Git / GitHub</span><span>Unity</span><span aria-hidden="true">React Native</span><span aria-hidden="true">Android</span><span aria-hidden="true">iOS</span><span aria-hidden="true">Java</span><span aria-hidden="true">Swift</span><span aria-hidden="true">JavaScript</span><span aria-hidden="true">Python</span><span aria-hidden="true">TensorFlow</span><span aria-hidden="true">SQLite</span><span aria-hidden="true">SQL Server</span><span aria-hidden="true">REST APIs</span><span aria-hidden="true">Firebase</span><span aria-hidden="true">Google Maps API</span><span aria-hidden="true">Figma</span><span aria-hidden="true">Git / GitHub</span><span aria-hidden="true">Unity</span></div>
+            <div class="stickers" aria-hidden="true">
+                <span class="sticker" style="--r:-8deg;--c:#c8ff3d;--t:14%;--l:56%">React Native</span>
+                <span class="sticker" style="--r:6deg;--c:#ff6b4a;--t:60%;--l:85%">Swift</span>
+                <span class="sticker" style="--r:-4deg;--c:#7aa7ff;--t:69%;--l:57%">Java</span>
+                <span class="sticker" style="--r:10deg;--c:#ffd23d;--t:57%;--l:66%">SQLite</span>
+                <span class="sticker" style="--r:-12deg;--c:#ff9de1;--t:57%;--l:49%">Figma</span>
+                <span class="sticker" style="--r:4deg;--c:#fff;--t:69%;--l:72%">TensorFlow</span>
+                <span class="drag-hint">drag the stickers</span>
+            </div>
+            <svg class="badge" viewBox="0 0 200 200" aria-hidden="true">
+                <defs><path id="circle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" /></defs>
+                <circle cx="100" cy="100" r="98" />
+                <text><textPath href="#circle">OPEN TO GRADUATE ROLES &#10022; AUSTRALIA-WIDE &#10022; </textPath></text>
+                <g class="badge-core"><rect x="82" y="68" width="36" height="64" rx="8" /><path d="M95 122h10" /></g>
+            </svg>
+        </section>
+
+        <!-- Marquee -->
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>React Native</span><span>Android</span><span>iOS</span><span>Java</span><span>Swift</span><span>JavaScript</span><span>Python</span><span>TensorFlow</span><span>SQLite</span><span>Firebase</span><span>Figma</span><span>Git</span>
+                <span>React Native</span><span>Android</span><span>iOS</span><span>Java</span><span>Swift</span><span>JavaScript</span><span>Python</span><span>TensorFlow</span><span>SQLite</span><span>Firebase</span><span>Figma</span><span>Git</span>
+            </div>
         </div>
-        <!-- Skills-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Skills</h2>
-                    <h3 class="section-subheading text-muted">A solid programming foundation with hands-on experience in mobile app projects.</h3>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <header class="section-head">
+                <p class="label">(01) About</p>
+                <h2>Hello, <em>g'day</em>, xin ch&agrave;o.</h2>
+            </header>
+            <div class="bento">
+                <article class="card card-intro">
+                    <p class="card-tag">whoami</p>
+                    <p class="big">I'm a mobile developer with a solid foundation in programming and hands-on experience in mobile app projects.</p>
+                    <p>I started building Android and iOS apps in Vietnam, then moved to Sydney to complete a Bachelor of Information Technology. I'm dedicated to continuous learning and to applying innovative solutions to complex problems.</p>
+                </article>
+                <article class="card card-loc">
+                    <p class="card-tag">location</p>
+                    <p class="card-title">Sydney now.<br />Anywhere in Australia next.</p>
+                    <p class="cities"><span>Sydney</span><span>Melbourne</span><span>Brisbane</span><span>Perth</span><span>Adelaide</span><span>+ anywhere</span></p>
+                </article>
+                <article class="card card-learn">
+                    <p class="card-tag">now learning</p>
+                    <p class="term"><span>$</span> pip install tensorflow<i></i></p>
+                    <p>Self-learning Python, TensorFlow and related machine learning technologies.</p>
+                </article>
+                <article class="card card-lang">
+                    <p class="card-tag">languages</p>
+                    <p class="card-title">English</p>
+                    <p class="card-title alt">Ti&#7871;ng Vi&#7879;t</p>
+                </article>
+                <article class="card card-soft">
+                    <p class="card-tag">how I work</p>
+                    <ul>
+                        <li>Problem solving</li>
+                        <li>Adaptability</li>
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <header class="section-head">
+                <p class="label">(02) Skills</p>
+                <h2>What I <em>work</em> with</h2>
+            </header>
+            <ul class="skill-rows">
+                <li><span class="n">01</span><h3>Mobile</h3><p><span>React Native</span><span>Android</span><span>iOS</span><span>Android Studio</span><span>Xcode</span></p></li>
+                <li><span class="n">02</span><h3>Languages</h3><p><span>Java</span><span>JavaScript</span><span>Swift</span><span>Python</span><span>VB.net</span></p></li>
+                <li><span class="n">03</span><h3>Data &amp; Backend</h3><p><span>SQLite</span><span>SQL Server</span><span>RESTful APIs</span><span>Google Maps API</span><span>Firebase</span></p></li>
+                <li><span class="n">04</span><h3>Design</h3><p><span>Figma</span><span>Photoshop CS6</span><span>UI/UX</span><span>HTML</span><span>CSS</span></p></li>
+                <li><span class="n">05</span><h3>AI / ML</h3><p><span>Python</span><span>TensorFlow</span><span>self-learning</span></p></li>
+                <li><span class="n">06</span><h3>Tools</h3><p><span>Git</span><span>GitHub</span><span>VS Code</span><span>Unity</span></p></li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <header class="section-head">
+                <p class="label">(03) Projects</p>
+                <h2>Things I've <em>built</em></h2>
+            </header>
+            <div class="showcase">
+                <div class="stage" aria-hidden="true">
+                    <div class="stage-inner">
+                        <div class="phone">
+                            <div class="phone-screen">
+                                <img class="on" src="assets/img/screens/yesterday-stories.svg" alt="" />
+                                <img src="assets/img/screens/health-tracker.svg" alt="" />
+                                <img src="assets/img/screens/ecommerce.svg" alt="" />
+                                <img src="assets/img/screens/city-cab.svg" alt="" />
+                                <img src="assets/img/screens/early-games.svg" alt="" />
+                            </div>
+                            <span class="phone-notch"></span>
+                        </div>
+                        <p class="stage-count"><b id="stage-n">01</b> / 05</p>
+                    </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-mobile-screen-button fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Mobile App Development</h4>
-                        <p class="text-muted">Building Android and iOS applications, from native apps to cross-platform React Native.</p>
-                        <ul class="skill-chips">
-                            <li>React Native</li>
-                            <li>Android</li>
-                            <li>iOS</li>
-                            <li>Android Studio</li>
-                            <li>Xcode</li>
+                <div class="project-list">
+                    <article class="project" data-color="#19b3a6">
+                        <div class="mini-phone"><img src="assets/img/screens/yesterday-stories.svg" alt="Illustration of the Yesterday Stories map screen" loading="lazy" /></div>
+                        <p class="project-meta">01 &middot; React Native &middot; Group project</p>
+                        <h3>Yesterday Stories</h3>
+                        <p>A location-based mobile app with interactive maps, custom markers and trail management.</p>
+                        <ul>
+                            <li>Designed and optimised the UI/UX for a better user experience.</li>
+                            <li>Implemented local data storage using SQLite.</li>
+                            <li>Managed version control with Git/GitHub in a collaborative team.</li>
                         </ul>
-                    </div></div>
-                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Programming</h4>
-                        <p class="text-muted">Comfortable across several languages, with version control in collaborative team environments.</p>
-                        <ul class="skill-chips">
-                            <li>Java</li>
-                            <li>JavaScript</li>
-                            <li>Swift</li>
-                            <li>Python</li>
-                            <li>VB.net</li>
-                            <li>Git / GitHub</li>
+                        <p class="chips"><span>React Native</span><span>SQLite</span><span>Git/GitHub</span></p>
+                    </article>
+                    <article class="project" data-color="#ff5d73">
+                        <div class="mini-phone"><img src="assets/img/screens/health-tracker.svg" alt="Illustration of the health tracker dashboard" loading="lazy" /></div>
+                        <p class="project-meta">02 &middot; Android &middot; Personal project</p>
+                        <h3>Personal Health Tracker</h3>
+                        <p>A multi-screen Android app to track and summarise users' lifestyle and health habits.</p>
+                        <ul>
+                            <li>Built an intuitive, user-friendly UI from scratch.</li>
+                            <li>Implemented an SQLite database for local data storage.</li>
+                            <li>Integrated an external API for extended functionality.</li>
+                            <li>Ensured compliance with GDPR and the Australian Privacy Principles.</li>
                         </ul>
-                    </div></div>
-                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-database fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Databases &amp; Backend</h4>
-                        <p class="text-muted">Local and server-side data storage, plus API integration for real-time and location features.</p>
-                        <ul class="skill-chips">
-                            <li>SQLite</li>
-                            <li>SQL Server</li>
-                            <li>RESTful APIs</li>
-                            <li>Google Maps API</li>
-                            <li>Firebase</li>
+                        <p class="chips"><span>Android</span><span>SQLite</span><span>External API</span></p>
+                    </article>
+                    <article class="project" data-color="#ffc21a">
+                        <div class="mini-phone"><img src="assets/img/screens/ecommerce.svg" alt="Illustration of the e-commerce product screen" loading="lazy" /></div>
+                        <p class="project-meta">03 &middot; Android &middot; Group project</p>
+                        <h3>E-commerce App</h3>
+                        <p>A full-featured shopping app taken from concept to deployment in Android Studio with Java and XML.</p>
+                        <ul>
+                            <li>Designed the complete UI/UX using Figma.</li>
+                            <li>Built register/login, product listing, type-ahead search, cart, checkout and order history.</li>
+                            <li>Developed and integrated custom RESTful APIs, with MongoDB on the backend.</li>
+                            <li>Implemented real-time data handling between frontend and backend.</li>
                         </ul>
-                    </div></div>
-                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-pen-ruler fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">UI/UX Design &amp; Web</h4>
-                        <p class="text-muted">Designing intuitive, user-friendly interfaces from scratch and optimising the user experience.</p>
-                        <ul class="skill-chips">
-                            <li>Figma</li>
-                            <li>Photoshop CS6</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
+                        <p class="chips"><span>Java</span><span>XML</span><span>RESTful APIs</span><span>MongoDB</span><span>Figma</span></p>
+                    </article>
+                    <article class="project" data-color="#5b6cff">
+                        <div class="mini-phone"><img src="assets/img/screens/city-cab.svg" alt="Illustration of the City Cab map screen" loading="lazy" /></div>
+                        <p class="project-meta">04 &middot; Android / iOS &middot; Revolution Sport</p>
+                        <h3>City Cab &middot; Cycle Safety</h3>
+                        <p>Taxi calling and cycle safety in one mobile app, built as an Android / iOS developer at Revolution Sport.</p>
+                        <ul>
+                            <li>User authentication and real-time safety alerts.</li>
+                            <li>Taxi calling and location-based services with Google Maps.</li>
+                            <li>Location tracking and data analysis for navigation.</li>
                         </ul>
-                    </div></div>
-                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-brain fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">AI &amp; Machine Learning</h4>
-                        <p class="text-muted">Actively self-learning Python, TensorFlow and related machine learning technologies.</p>
-                        <ul class="skill-chips">
-                            <li>Python</li>
-                            <li>TensorFlow</li>
+                        <p class="chips"><span>Android</span><span>iOS</span><span>Google Maps</span></p>
+                    </article>
+                    <article class="project" data-color="#3d4a7a">
+                        <div class="mini-phone"><img src="assets/img/screens/early-games.svg" alt="Illustration of a 2D platform game" loading="lazy" /></div>
+                        <p class="project-meta">05 &middot; Android &middot; Unity &middot; College projects</p>
+                        <h3>Early Apps &amp; Games</h3>
+                        <p>Where it started: projects completed at FPT and TechMaster.</p>
+                        <ul>
+                            <li>Mobile student administration app using Eclipse and SQL.</li>
+                            <li>A mobile puzzle game and a 2D "Running Mario" game with Unity.</li>
+                            <li>Android weather forecasting app using Android Studio.</li>
+                            <li>App clones, including a fortune-telling app and a multimedia note-taking app with SQLite.</li>
                         </ul>
-                    </div></div>
-                    <div class="col-md-6 col-lg-4 mb-4"><div class="skill-card">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-people-group fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Teamwork &amp; Communication</h4>
-                        <p class="text-muted">Problem solving, adaptability and strong communication, in English and Vietnamese.</p>
-                        <ul class="skill-chips">
-                            <li>Problem Solving</li>
-                            <li>Adaptability</li>
-                            <li>English</li>
-                            <li>Vietnamese</li>
-                        </ul>
-                    </div></div>
+                        <p class="chips"><span>Android Studio</span><span>Eclipse</span><span>Unity</span><span>SQLite</span></p>
+                    </article>
                 </div>
             </div>
         </section>
-        <!-- Projects Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Projects</h2>
-                    <h3 class="section-subheading text-muted">Selected apps from university, college and professional work.</h3>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Project 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <div class="project-tile tile-teal"><img src="assets/img/projects/1-yesterday-stories.svg" alt="Yesterday Stories app illustration" loading="lazy" /></div>
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Yesterday Stories</div>
-                                <div class="portfolio-caption-subheading text-muted">React Native &middot; Group Project</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Project 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <div class="project-tile tile-rose"><img src="assets/img/projects/2-health-tracker.svg" alt="Health Tracker app illustration" loading="lazy" /></div>
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Health Tracker</div>
-                                <div class="portfolio-caption-subheading text-muted">Android &middot; Personal Project</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Project 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <div class="project-tile tile-amber"><img src="assets/img/projects/3-ecommerce.svg" alt="E-commerce app illustration" loading="lazy" /></div>
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">E-commerce App</div>
-                                <div class="portfolio-caption-subheading text-muted">Android &middot; Group Project</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Project 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <div class="project-tile tile-indigo"><img src="assets/img/projects/5-city-cab.svg" alt="City Cab cycle safety app illustration" loading="lazy" /></div>
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">City Cab &middot; Cycle Safety</div>
-                                <div class="portfolio-caption-subheading text-muted">Android / iOS &middot; Revolution Sport</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Project 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <div class="project-tile tile-dark"><img src="assets/img/projects/6-early-games.svg" alt="Early apps and games illustration" loading="lazy" /></div>
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Early Apps &amp; Games</div>
-                                <div class="portfolio-caption-subheading text-muted">Android &middot; Unity &middot; College Projects</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Experience-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Experience</h2>
-                    <h3 class="section-subheading text-muted">From mobile development in Vietnam to studying and working in Sydney.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image timeline-icon"><i class="fas fa-mobile-screen-button"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Nov 2016 - Oct 2017</h4>
-                                <h4 class="subheading">Android / iOS Developer &middot; Revolution Sport (Vietnam)</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Developed Android and iOS applications, including the City Cab cycle safety app with user authentication, real-time safety alerts, taxi calling, and location tracking and navigation using Google Maps.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image timeline-icon"><i class="fas fa-laptop-code"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Jan 2018 - Apr 2018</h4>
-                                <h4 class="subheading">Developer &middot; DTS Software Vietnam Co., Ltd</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Contributed to custom software solutions using VB.net and SQL Server based on client needs, developed mobile applications in Android Studio, and collaborated on technical specifications and deployment troubleshooting.</p></div>
-                        </div>
+
+        <!-- Journey -->
+        <section class="section" id="journey">
+            <header class="section-head">
+                <p class="label">(04) Journey</p>
+                <h2>The <em>commit</em> history</h2>
+            </header>
+            <div class="log">
+                <p class="log-cmd"><span>$</span> git log --career --education</p>
+                <ol>
+                    <li class="study">
+                        <p class="log-line"><span class="hash">HEAD</span><span class="ref">study</span><time>Jun 2023 &rarr; Oct 2026</time></p>
+                        <h3>Bachelor of Information Technology</h3>
+                        <p class="where">King's Own Institute &middot; Australia</p>
+                        <p>Built the Yesterday Stories, Health Tracker and E-commerce apps as part of the degree.</p>
                     </li>
                     <li>
-                        <div class="timeline-image timeline-icon"><i class="fas fa-screwdriver-wrench"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Oct 2018 - Jul 2019</h4>
-                                <h4 class="subheading">Software Engineer &middot; Clickbuy Phone Retail System</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Provided technical consultation and customer support on mobile devices, including installations, system upgrades and troubleshooting issues such as jailbreaking and rooting.</p></div>
-                        </div>
+                        <p class="log-line"><span class="hash">e5a91f0</span><span class="ref">work</span><time>May 2023 &rarr; Now</time></p>
+                        <h3>F&amp;B Attendant</h3>
+                        <p class="where">Shangri-La Sydney</p>
+                        <p>Strong communication and customer service in a high-pressure environment, working within a diverse team and prioritising tasks to meet guest needs.</p>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image timeline-icon"><i class="fas fa-bell-concierge"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>May 2023 - Now</h4>
-                                <h4 class="subheading">F&amp;B Attendant &middot; Shangri-La Sydney</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Built strong communication and customer service skills in a high-pressure environment, collaborating within a diverse team and prioritising tasks to meet guest needs efficiently.</p></div>
-                        </div>
+                    <li>
+                        <p class="log-line"><span class="hash">c41d7b2</span><span class="ref">work</span><time>Oct 2018 &rarr; Jul 2019</time></p>
+                        <h3>Software Engineer</h3>
+                        <p class="where">Clickbuy Phone Retail System</p>
+                        <p>Technical consultation and customer support on mobile devices: installations, system upgrades and troubleshooting such as jailbreaking and rooting.</p>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image timeline-cta">
-                            <h4>
-                                Open To
-                                <br />
-                                Graduate
-                                <br />
-                                Roles!
-                            </h4>
-                        </div>
+                    <li>
+                        <p class="log-line"><span class="hash">9b20e6a</span><span class="ref">work</span><time>Jan 2018 &rarr; Apr 2018</time></p>
+                        <h3>Developer</h3>
+                        <p class="where">DTS Software Vietnam Co., Ltd</p>
+                        <p>Custom software solutions using VB.net and SQL Server, mobile applications in Android Studio, and technical specifications and deployment troubleshooting.</p>
                     </li>
-                </ul>
+                    <li>
+                        <p class="log-line"><span class="hash">3f7c0d8</span><span class="ref">work</span><time>Nov 2016 &rarr; Oct 2017</time></p>
+                        <h3>Android / iOS Developer</h3>
+                        <p class="where">Revolution Sport &middot; Vietnam</p>
+                        <p>Developed Android and iOS applications, including the City Cab cycle safety app with user authentication, real-time safety alerts, taxi calling and Google Maps navigation.</p>
+                    </li>
+                    <li class="study">
+                        <p class="log-line"><span class="hash">0a1b2c3</span><span class="ref">study</span><time>Sep 2013 &rarr; May 2016</time></p>
+                        <h3>FPT, TechMaster</h3>
+                        <p class="where">Vietnam</p>
+                        <p>First apps and games: a student administration app, a puzzle game, a 2D Unity platformer and an Android weather app.</p>
+                    </li>
+                </ol>
             </div>
         </section>
-        <!-- Education-->
-        <section class="page-section bg-light" id="education">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Education</h2>
-                    <h3 class="section-subheading text-muted">Continuously learning new AI frameworks and coding practices.</h3>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="edu-card">
-                            <div class="edu-period">Jun 2023 - Oct 2026</div>
-                            <h4 class="mt-2 mb-1">Bachelor of Information Technology</h4>
-                            <p class="text-muted">King's Own Institute &middot; Australia</p>
-                            <ul class="text-muted">
-                                <li>Yesterday Stories - location-based React Native app (group project)</li>
-                                <li>Personal Health Tracker - multi-screen Android app</li>
-                                <li>E-commerce Android app with custom RESTful APIs and MongoDB (group project)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="edu-card">
-                            <div class="edu-period">Sep 2013 - May 2016</div>
-                            <h4 class="mt-2 mb-1">FPT, TechMaster</h4>
-                            <p class="text-muted">Vietnam &middot; Projects completed</p>
-                            <ul class="text-muted">
-                                <li>Mobile student administration app using Eclipse and SQL</li>
-                                <li>Mobile puzzle game and a 2D "Running Mario" game with Unity</li>
-                                <li>Android weather forecasting app using Android Studio</li>
-                                <li>App clones, including a fortune-telling app and a multimedia note-taking app with SQLite</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <p class="label">(05) Contact</p>
+            <h2>Let's <em>build</em><br />something.</h2>
+            <p class="contact-lead">Looking for a graduate position in software development / IT, anywhere in Australia.</p>
+            <a class="mail" href="mailto:Herbert.ddtt@gmail.com">Herbert.ddtt@gmail.com</a>
+            <div class="contact-row">
+                <button class="btn btn-light" id="copy" type="button" data-email="Herbert.ddtt@gmail.com">Copy email</button>
+                <a class="btn btn-ghost" href="tel:+61433479641">0433 479 641</a>
+                <span class="where">Sydney &middot; open to relocating across Australia</span>
             </div>
+            <footer class="foot">
+                <span>&copy; 2026 Herbert Do</span>
+                <span>Built with HTML, CSS and a little JavaScript</span>
+            </footer>
         </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact</h2>
-                    <h3 class="section-subheading text-muted">Looking for a graduate position in software development / IT, anywhere in Australia.</h3>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-4 contact-item">
-                        <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
-                        <div class="contact-label">Email</div>
-                        <a href="mailto:Herbert.ddtt@gmail.com">Herbert.ddtt@gmail.com</a>
-                    </div>
-                    <div class="col-md-4 contact-item">
-                        <i class="fas fa-phone fa-2x text-primary mb-3"></i>
-                        <div class="contact-label">Phone</div>
-                        <a href="tel:+61433479641">0433 479 641</a>
-                    </div>
-                    <div class="col-md-4 contact-item">
-                        <i class="fas fa-location-dot fa-2x text-primary mb-3"></i>
-                        <div class="contact-label">Location</div>
-                        <div>Sydney &middot; open to relocating across Australia</div>
-                    </div>
-                </div>
-                <div class="text-center mt-3"><a class="btn btn-primary btn-xl text-uppercase" href="mailto:Herbert.ddtt@gmail.com">Email Me</a></div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 text-lg-start">Copyright &copy; Herbert Do 2026</div>
-                    <div class="col-lg-6 text-lg-end my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="mailto:Herbert.ddtt@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="tel:+61433479641" aria-label="Phone"><i class="fas fa-phone"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Project Modals-->
-        <!-- Project 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">Yesterday Stories</h2>
-                                    <p class="item-intro text-muted">Location-based mobile app built with React Native.</p>
-                                    <div class="project-tile tile-teal"><img src="assets/img/projects/1-yesterday-stories.svg" alt="Yesterday Stories app illustration" loading="lazy" /></div>
-                                    <p>A location-based mobile application featuring interactive maps with custom markers and trail management functionality, developed as a group project.</p>
-                                    <ul class="project-points">
-                                        <li>Designed and optimised the UI/UX for a better user experience.</li>
-                                        <li>Implemented local data storage using SQLite.</li>
-                                        <li>Managed version control with Git/GitHub in a collaborative team environment.</li>
-                                    </ul>
-                                    <ul class="list-inline">
-                                        <li><strong>Context:</strong> King's Own Institute</li>
-                                        <li><strong>Stack:</strong> React Native, SQLite, Git/GitHub</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">Personal Health Tracker</h2>
-                                    <p class="item-intro text-muted">Healthcare Android app for lifestyle and health habits.</p>
-                                    <div class="project-tile tile-rose"><img src="assets/img/projects/2-health-tracker.svg" alt="Health Tracker app illustration" loading="lazy" /></div>
-                                    <p>A multi-screen Android application, designed and developed to track and summarise users' lifestyle and health habits.</p>
-                                    <ul class="project-points">
-                                        <li>Built an intuitive and user-friendly UI from scratch.</li>
-                                        <li>Implemented an SQLite database for local data storage.</li>
-                                        <li>Integrated an external API for extended functionality.</li>
-                                        <li>Ensured compliance with GDPR and the Australian Privacy Principles (APPs).</li>
-                                    </ul>
-                                    <ul class="list-inline">
-                                        <li><strong>Context:</strong> King's Own Institute</li>
-                                        <li><strong>Stack:</strong> Android, SQLite, External API</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">E-commerce App</h2>
-                                    <p class="item-intro text-muted">Full-featured Android shopping app, from concept to deployment.</p>
-                                    <div class="project-tile tile-amber"><img src="assets/img/projects/3-ecommerce.svg" alt="E-commerce app illustration" loading="lazy" /></div>
-                                    <p>A full-featured eCommerce mobile application built in Android Studio with Java and XML, delivered by a team as a scalable, commercial-ready app.</p>
-                                    <ul class="project-points">
-                                        <li>Designed the complete UI/UX using Figma.</li>
-                                        <li>Built core features: register/login, product listing, type-ahead search, cart, checkout and order history.</li>
-                                        <li>Developed and integrated custom RESTful APIs.</li>
-                                        <li>Used MongoDB for backend database management.</li>
-                                        <li>Implemented real-time data handling between frontend and backend.</li>
-                                    </ul>
-                                    <ul class="list-inline">
-                                        <li><strong>Context:</strong> King's Own Institute (Group Project)</li>
-                                        <li><strong>Stack:</strong> Java, XML, RESTful APIs, MongoDB, Figma</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">City Cab &middot; Cycle Safety App</h2>
-                                    <p class="item-intro text-muted">Taxi calling and cycle safety in one mobile app.</p>
-                                    <div class="project-tile tile-indigo"><img src="assets/img/projects/5-city-cab.svg" alt="City Cab cycle safety app illustration" loading="lazy" /></div>
-                                    <p>Developed at Revolution Sport as an Android / iOS developer.</p>
-                                    <ul class="project-points">
-                                        <li>User authentication and real-time safety alerts.</li>
-                                        <li>Taxi calling features and location-based services with Google Maps.</li>
-                                        <li>Location tracking and data analysis using Google Maps for navigation.</li>
-                                    </ul>
-                                    <ul class="list-inline">
-                                        <li><strong>Context:</strong> Revolution Sport (2016 - 2017)</li>
-                                        <li><strong>Stack:</strong> Android / iOS, Google Maps</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2 class="text-uppercase">Early Apps &amp; Games</h2>
-                                    <p class="item-intro text-muted">Projects completed at FPT and TechMaster.</p>
-                                    <div class="project-tile tile-dark"><img src="assets/img/projects/6-early-games.svg" alt="Early apps and games illustration" loading="lazy" /></div>
-                                    <ul class="project-points">
-                                        <li>Mobile student administration app using Eclipse and SQL.</li>
-                                        <li>Mobile puzzle game.</li>
-                                        <li>2D "Running Mario" game designed and implemented with Unity.</li>
-                                        <li>Android weather forecasting application using Android Studio.</li>
-                                        <li>App clones, such as a fortune-telling app with algorithm-based results and a multimedia note-taking app using SQLite.</li>
-                                    </ul>
-                                    <ul class="list-inline">
-                                        <li><strong>Context:</strong> FPT, TechMaster (2013 - 2016)</li>
-                                        <li><strong>Stack:</strong> Android Studio, Eclipse, Unity, SQL, SQLite</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </main>
+
+    <!-- Dock navigation -->
+    <nav class="dock" aria-label="Sections">
+        <a href="#home" class="active"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" /></svg><span>Home</span></a>
+        <a href="#about"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" /><path d="M4 21c0-4 4-6 8-6s8 2 8 6" /></svg><span>About</span></a>
+        <a href="#skills"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16" /></svg><span>Skills</span></a>
+        <a href="#projects"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5" /><path d="M11 18h2" /></svg><span>Projects</span></a>
+        <a href="#journey"><svg viewBox="0 0 24 24"><circle cx="6" cy="5" r="2.5" /><circle cx="6" cy="19" r="2.5" /><circle cx="18" cy="9" r="2.5" /><path d="M6 7.5v9M18 11.5c0 4-6 3-12 5" /></svg><span>Journey</span></a>
+        <a href="#contact"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 6 9-6" /></svg><span>Contact</span></a>
+    </nav>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
